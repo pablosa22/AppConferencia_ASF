@@ -51,12 +51,13 @@
                <asp:Button ID="btConfirmar" class="btn btn-outline-success" runat="server" Text="Inicia / Finalizar" OnClick="btConfirmar_Click"   />                                 
            </div> 
            
-            <!--
+                  <!--
            <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
                <br />
                <asp:Button ID="btFinalizar" class="btn btn-outline-success" runat="server" Text="Finaliza Conf"  />                                 
            </div>  
-            -->           
+            -->  
+               
 
         </div>
 
