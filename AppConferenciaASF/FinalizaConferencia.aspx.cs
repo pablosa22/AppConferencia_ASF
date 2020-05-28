@@ -103,6 +103,7 @@ namespace AppConferenciaASF
             else if (matricula != 0 && opcao == 4) // carga
             {
                 nn.ConfirmaConferenciaAutomatica(numero, matricula, opcao);
+                nn.FinalizarConferenciaAutomatica(numero, opcao);
                 this.GridView2.DataSource = nn.ListaPedidosParaConferencia();
                 this.GridView2.DataBind();
                 String mensagem1 = "Iniciado a conferencia! de N° " + numero;
